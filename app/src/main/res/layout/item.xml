@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="#ccc">
+        <TextView
+            android:layout_marginLeft="110dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的名字"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_marginLeft="110dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="苏州大学"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+</LinearLayout>
